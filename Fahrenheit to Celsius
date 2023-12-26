@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+	float fahrenheit;
+	scanf("%f", &fahrenheit);
+	double celsius = ((fahrenheit-32)/9)*5;
+	printf("%.2lf", celsius);
+}
