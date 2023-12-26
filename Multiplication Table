@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+	int numero;
+	scanf("%d", &numero);
+	int a = numero*1;
+	int b = numero*2;
+	int c = numero*3;
+	int d = numero*4;
+	int e = numero*5;
+	int f = numero*6;
+	int g = numero*7;
+	int h = numero*8;
+	int i = numero*9;
+	
+	printf( "%d ", numero);
+	printf("X 1 = %d\n", a);
+	printf( "%d ", numero);
+	printf("X 2 = %d\n", b);
+	printf( "%d ", numero);
+	printf("X 3 = %d\n", c);
+	printf( "%d ", numero);
+	printf("X 4 = %d\n", d);
+	printf( "%d ", numero);
+	printf("X 5 = %d\n", e);
+	printf( "%d ", numero);
+	printf("X 6 = %d\n", f);
+	printf( "%d ", numero);
+	printf("X 7 = %d\n", g);
+	printf( "%d ", numero);
+	printf("X 8 = %d\n", h);
+	printf( "%d ", numero);
+	printf("X 9 = %d\n", i);
+	
+
+}
